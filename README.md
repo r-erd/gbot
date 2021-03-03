@@ -21,15 +21,14 @@ pip3 install bs4
 pip3 install schedule
 pip3 install html5lib
 
+git clone https://github.com/r-erd/gbot.git
+cd gbot
 
 #add your chat_id, telegram-bot token and friedolin credentials to the code
 #maybe adjust the chromedriver path
 
-
 #start the script
 
-git clone https://github.com/r-erd/gbot.git
-cd gbot
 sudo nohup python3 gbot.py &
 
 ```
