@@ -23,8 +23,11 @@ ChatId and the Bot token must be obtained from Telegram.
 - There are various guides in the internet explaining how to get the chatId.
 
 
+chromedriver: 
 https://chromedriver.chromium.org
-and either google-chrome or chromium-browser, Selenium will usually find the binaries by itself.
+Chrome:
+and either google-chrome or chromium-browser,
+Selenium will usually find the binaries by itself.
 
 
 
@@ -36,7 +39,7 @@ sudo mv -f chromedriver /usr/local/share/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 
---> later use chromedriver = '/usr/bin/chromedriver'
+#--> later use chromedriver = '/usr/bin/chromedriver'
 
 pip3 install selenium
 pip3 install python-telegram-bot
