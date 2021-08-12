@@ -13,8 +13,31 @@ requires
 - pip
 - chromedriver
 
+It is very important that the version of chrome and chromedriver match.
+It is also very important that the path to chromedriver is fitting.
+
+ChatId and the Bot token must be obtained from Telegram.
+
+- The bot token is part of the bot-creation-process.
+- The chatid identifies which chat/user the bot will post his messages. 
+- There are various guides in the internet explaining how to get the chatId.
+
+
+https://chromedriver.chromium.org
+and either google-chrome or chromium-browser, Selenium will usually find the binaries by itself.
+
+
 
 ```bash
+wget https://chromedriver.storage.googleapis.com/VERSION/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+chmod +x chromedriver
+sudo mv -f chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+
+--> later use chromedriver = '/usr/bin/chromedriver'
+
 pip3 install selenium
 pip3 install python-telegram-bot
 pip3 install bs4
