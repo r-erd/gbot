@@ -26,8 +26,7 @@ ChatId and the Bot token must be obtained from Telegram.
 chromedriver: </br>
 https://chromedriver.chromium.org </br>
 Chrome: </br>
-and either google-chrome or chromium-browser, </br>
-Selenium will usually find the binaries by itself.
+and either google-chrome or chromium-browser, Selenium will usually find the binaries by itself.
 
 
 
