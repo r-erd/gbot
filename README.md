@@ -23,10 +23,10 @@ ChatId and the Bot token must be obtained from Telegram.
 - There are various guides in the internet explaining how to get the chatId.
 
 
-chromedriver: 
-https://chromedriver.chromium.org
-Chrome:
-and either google-chrome or chromium-browser,
+chromedriver: </br>
+https://chromedriver.chromium.org </br>
+Chrome: </br>
+and either google-chrome or chromium-browser, </br>
 Selenium will usually find the binaries by itself.
 
 
