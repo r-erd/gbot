@@ -6,7 +6,7 @@ It can be configured to notify you if there were any changes to your grades (or,
 
 You can also trigger a manual check by sending the command "/check" to the bot.
 
-![What is this](gbot_demo.png)
+![Demo](gbot_demo.jpg)
 
 
 ## Installation and Usage
