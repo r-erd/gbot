@@ -1,34 +1,38 @@
 # gbot
 
-this is a telegram bot that regulary checks the website of "FSU Jena" for new grades regarding the exams you took.
-it will notify you if there were any changes to your grades (or, more importantly new grades added). You can also trigger a manual check by sending the command "/check" to the bot.
+This is a telegram bot that regulary checks the student portal of "FSU Jena" for new grades regarding the exams you took.
 
-!!!  you will have to get your own bot token from telegram and set this script up somewhere to run continously
-> this is a work in progress and only a short draft
+It can be configured to notify you if there were any changes to your grades (or, more importantly new grades added). 
+
+You can also trigger a manual check by sending the command "/check" to the bot.
+
+![What is this](gbot_demo.png)
+
 
 ## Installation and Usage
 
 requires 
-- Python3
+- python3
 - pip
 - chromedriver
 
-It is very important that the version of chrome and chromedriver match.
-It is also very important that the path to chromedriver is fitting.
+It is very important that the version of chrome and chromedriver match and that the path to chromedriver is correct.
 
-ChatId and the Bot token must be obtained from Telegram.
+Chat-Id and the bot-token must be obtained from Telegram.
 
-- The bot token is part of the bot-creation-process.
-- The chatid identifies which chat/user the bot will post his messages. 
+- The bot-token is part of the bot-creation-process.
+- The Chat-Id identifies which chat/user the bot will post his messages. 
 - There are various guides in the internet explaining how to get the chatId.
 
 
-chromedriver: </br>
-https://chromedriver.chromium.org </br>
-Chrome: </br>
-and either google-chrome or chromium-browser, Selenium will usually find the binaries by itself.
+chromedriver: 
+- https://chromedriver.chromium.org
 
+alternatively, with included chromedriver:
+  - google-chrome 
+  - chromium-browser
 
+When using a browser that includes chromedriver, the Selenium default path usually works.
 
 ```bash
 wget https://chromedriver.storage.googleapis.com/VERSION/chromedriver_linux64.zip
